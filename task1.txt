@@ -1,0 +1,34 @@
+1.Write a blog on Difference between HTTP1.1 vs HTTP2
+    
+   A.HTTP1.1
+       *HTTP is a Hyper Text Transfer Protocol version 1.1.
+       *HTTP1.1 can send multiple requests for data in parallel over a two TCP connection.
+       *It is used to process text commands to complete request-response cycles.
+       *Eliminating security concerns associated with the textual nature of HTTP1.x such as 
+         response splitting attacks.
+
+
+ B.HTTP2 
+      *HTTP is a Hyper Text Transfer Protocol version 2.
+      *HTTP/2 can send multiple requests for data in parallel over a single TCP connection. This is the most 
+        advanced feature of the HTTP/2 protocol because it allows you to download web files asynchronously 
+        from one server.
+      *HTTP/2 will use binary commands (in 1s and 0s) to execute the same tasks.
+      *Enables other capabilities of the HTTP/2 including compression, multiplexing, prioritization, flow control 
+        and effective handling of TLS.
+
+2.Write a blog about objects and its internal representation in Javascript
+
+    *Objects, in JavaScript, it is most important data-type and forms the building blocks for modern JavaScript. 
+    
+    *These objects are quite different from JavaScript’s primitive data-types(Number, String, Boolean, null, 
+       undefined and symbol) in the sense that while these primitive data-types all store a single value each.
+    
+    *An object can be created with figure brackets {…} with an optional list of properties. A property is 
+      a “key: value” pair, where a key is a string (also called a “property name”), and value can be anything.
+    *Ex:     
+            let school = {
+                 Name    : “ABC School”,
+                 location : “Coimbatore”,
+                 Established : “1971”
+                  }
